@@ -6,16 +6,19 @@
 
 ### 1.相关工程：
 1. spring-cloud-eureka-server-for-sleuth
-`注册中心`
+>注册中心
 2. spring-cloud-sleuth-http-client
-`微服务，本项目最多演示三层服务调用。`
+>微服务，本项目最多演示三层服务调用。
 3. spring-cloud-sleuth-http-server
-`Zipkin服务，默认存储在内存中。`
+>Zipkin服务，默认存储在内存中。
 
 ### 2.使用步骤：
-1. 启动eureka注册中心：EurekaServerApplication.java
-2. 启动三个微服务：a、b、c包下ServiceApplication.java
-3. 启动zipkin服务：ZipkinServerApplication.java
+1. 启动eureka注册中心：
+>EurekaServerApplication.java
+2. 启动三个微服务：
+>a、b、c包下ServiceApplication.java
+3. 启动zipkin服务：
+>ZipkinServerApplication.java
 
 ### 3.测试方法
 1. <http://localhost:8881/1>
@@ -27,16 +30,19 @@
 
 ### 1.相关工程：
 1. spring-cloud-eureka-server-for-sleuth
-`注册中心`
+>注册中心
 2. spring-cloud-sleuth-http-client
-`微服务，本项目最多演示三层服务调用。`
+>微服务，本项目最多演示三层服务调用。
 3. spring-cloud-sleuth-http-mysql-server
-`Zipkin服务，采用mysql存储采样数据。`
+>Zipkin服务，采用mysql存储采样数据。
 
 ### 2.使用步骤：
-1. 启动eureka注册中心：EurekaServerApplication.java
-2. 启动三个微服务：a、b、c包下ServiceApplication.java
-3. 启动zipkin服务：ZipkinServerApplication.java
+1. 启动eureka注册中心：
+>EurekaServerApplication.java
+2. 启动三个微服务：
+>a、b、c包下ServiceApplication.java
+3. 启动zipkin服务：
+>ZipkinServerApplication.java
 
 ### 3.测试方法
 1. <http://localhost:8881/1>
