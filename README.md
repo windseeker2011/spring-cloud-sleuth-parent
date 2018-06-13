@@ -1,5 +1,6 @@
 # Spring-Cloud-Sleuth 演示项目
->结合eureka+mysql+kafka，剖析各适应条件下springcloud微服务追踪。本项目默认采用率为100%，生产环境根据需求自动调整即可。
+>结合eureka+mysql+kafka，剖析各适应条件下springcloud微服务追踪。本项目默认采用率为100%，生产环境根据需求自动调整即可。  
+>官网文档地址：<http://cloud.spring.io/spring-cloud-static/spring-cloud-sleuth/1.3.3.RELEASE/single/spring-cloud-sleuth.html>
 
 ## * 默认配置：http+内存 *
 >默认采样是采用http请求至zipkin服务端，zipkin默认采用内存存储。
