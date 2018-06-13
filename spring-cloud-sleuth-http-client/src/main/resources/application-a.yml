@@ -1,0 +1,19 @@
+spring:
+  application:
+    #微服务名称
+    name: microservice-a
+  zipkin:
+    #zipkin地址
+    base-url: http://localhost:9411/
+  sleuth:
+    enabled: true
+    sampler:
+      #采样率100%
+      percentage: 1
+server:
+  port: 8881
+eureka:
+  client:
+    service-url:
+      #eureka地址
+      defaultZone: http://localhost:8761/eureka/
