@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: zipkin-server
+  datasource:
+    schema: classpath:/mysql.sql
+    url: jdbc:mysql://localhost:3306/zipkin?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: root
+    password: 123456
+    # Switch this on to create the schema on startup:
+    initialize: true
+    continueOnError: true
+  sleuth:
+    enabled: false
+zipkin:
+  storage:
+    type: mysql
+server:
+  port: 9411
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

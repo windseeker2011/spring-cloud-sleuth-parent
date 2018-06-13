@@ -15,8 +15,9 @@
 
 	<modules>
 		<module>spring-cloud-eureka-server-for-sleuth</module>
-		<module>spring-cloud-sleuth-http-server</module>
 		<module>spring-cloud-sleuth-http-client</module>
+		<module>spring-cloud-sleuth-http-server</module>
+		<module>spring-cloud-sleuth-http-mysql-server</module>
 	</modules>
 
 	<properties>
