@@ -19,7 +19,6 @@
 			<groupId>io.zipkin.java</groupId>
 			<artifactId>zipkin-autoconfigure-ui</artifactId>
 		</dependency>
-
 		<!-- zipkin-autoconfigure-storage-mysql -->
 		<dependency>
 			<groupId>io.zipkin.java</groupId>
