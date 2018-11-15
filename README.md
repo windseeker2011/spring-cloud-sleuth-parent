@@ -75,7 +75,7 @@
 >bin\windows\kafka-server-start.bat config\server2.properties  
 
 >*linux*    
->bin/kafka-server-start.sh config/server.properties
+>bin/kafka-server-start.sh config/server.properties  
 >bin/kafka-server-start.sh config/server1.properties  
 >bin/kafka-server-start.sh config/server2.properties  
 
