@@ -61,7 +61,25 @@
 3. spring-cloud-sleuth-stream-server
 >Zipkin服务，采用mysql存储采样数据。
 
-### 2.使用步骤：
+### 2.准备工作：
+1. 启动zookeeper服务：
+>*windows*  
+>bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+>*linux*  
+>bin\windows\zookeeper-server-start.sh config/zookeeper.properties  
+2. 启动kafka服务：
+>*windows*  
+>bin\windows\kafka-server-start.bat config\server.properties  
+>bin\windows\kafka-server-start.bat config\server1.properties  
+>bin\windows\kafka-server-start.bat config\server2.properties  
+
+>*linux*    
+>bin/kafka-server-start.sh config/server.properties
+>bin/kafka-server-start.sh config/server1.properties  
+>bin/kafka-server-start.sh config/server2.properties  
+
+### 3.使用步骤：
 1. 启动eureka注册中心：
 >EurekaServerApplication.java
 2. 启动三个微服务：
@@ -69,7 +87,7 @@
 3. 启动zipkin服务：
 >ZipkinServerApplication.java
 
-### 3.测试方法
+### 4.测试方法
 1. <http://localhost:8881/1>
 2. <http://localhost:8881/2>
 3. <http://localhost:8881/3>
