@@ -18,6 +18,8 @@
 		<module>spring-cloud-sleuth-http-client</module>
 		<module>spring-cloud-sleuth-http-server</module>
 		<module>spring-cloud-sleuth-http-mysql-server</module>
+		<module>spring-cloud-sleuth-stream-client</module>
+		<module>spring-cloud-sleuth-stream-server</module>
 	</modules>
 
 	<properties>

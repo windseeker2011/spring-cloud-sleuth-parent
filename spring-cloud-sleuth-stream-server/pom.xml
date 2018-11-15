@@ -6,13 +6,23 @@
 		<artifactId>spring-cloud-sleuth-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>spring-cloud-sleuth-http-mysql-server</artifactId>
+	<artifactId>spring-cloud-sleuth-stream-server</artifactId>
 
 	<dependencies>
-		<!-- zipkin-server -->
+		<!-- spring-cloud-starter-sleuth -->
 		<dependency>
-			<groupId>io.zipkin.java</groupId>
-			<artifactId>zipkin-server</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-sleuth</artifactId>
+		</dependency>
+		<!-- spring-cloud-sleuth-zipkin-stream -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin-stream</artifactId>
+		</dependency>
+		<!-- spring-cloud-starter-stream-kafka -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-stream-kafka</artifactId>
 		</dependency>
 		<!-- zipkin-autoconfigure-ui -->
 		<dependency>
@@ -20,11 +30,6 @@
 			<artifactId>zipkin-autoconfigure-ui</artifactId>
 		</dependency>
 
-		<!-- zipkin-autoconfigure-storage-mysql -->
-		<dependency>
-			<groupId>io.zipkin.java</groupId>
-			<artifactId>zipkin-autoconfigure-storage-mysql</artifactId>
-		</dependency>
 		<!-- mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
