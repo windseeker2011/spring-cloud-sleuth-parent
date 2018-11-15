@@ -67,7 +67,7 @@
 >bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 
 >*linux*  
->bin\windows\zookeeper-server-start.sh config/zookeeper.properties  
+>bin/windows/zookeeper-server-start.sh config/zookeeper.properties  
 2. 启动kafka服务：
 >*windows*  
 >bin\windows\kafka-server-start.bat config\server.properties  
